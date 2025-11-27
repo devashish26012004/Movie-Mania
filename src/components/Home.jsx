@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+      <Button />
       <Footer />
     </div>
   );

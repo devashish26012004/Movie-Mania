@@ -1,6 +1,6 @@
 const MovieCardTwo = ({ movie }) => {
   return (
-    <div className="movie-card w-xs rounded-2xl p-3 bg-[#e0e0e0] shadow-md cursor-pointer hover:translate-y-[-7px] transform transition duration-200 hover:shadow-xl hover:bg-gray-300">
+    <div className="movie-card w-xs rounded-2xl p-3 bg-[#e0e0e0] shadow-md cursor-pointer border border-gray-300 hover:translate-y-[-7px] transform transition duration-200 hover:shadow-xl hover:bg-gray-300">
       <div className="poster h-48 w-full">
         <img
           src={movie.poster}
