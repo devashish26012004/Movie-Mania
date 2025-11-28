@@ -1,7 +1,12 @@
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
 const Profile = () => {
   return (
     <div>
-      <h1>Profile</h1>
+      <Navbar />
+      
+      <Footer />
     </div>
   );
 };
